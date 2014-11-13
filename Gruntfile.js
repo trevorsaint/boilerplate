@@ -78,9 +78,10 @@ module.exports = function(grunt) {
 
   		html: {
 
-  			files: ['*.html'],
+  			files: ['**/*.html'],
   			options: {
-  				livereload: true
+  				livereload: true,
+  				spawn: false
   			}
 
   		}
